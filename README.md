@@ -15,10 +15,10 @@ Actucally, this spider has existed, I just update and fix it.
 
 ## Settings
 
-JDK 1.8.0
-Tomcat 9.0
+JDK 1.8.0</br>
+Tomcat 9.0</br>
 ElasticSearch 5.x(and need ansj, or you can edit the spiderinfo.json and webpage.json to adjust other Tokenizer, like ik.)
-Casperjs(you need to install phontomjs before)
+Casperjs(you need to install phontomjs before)</br>
 
 Optional:redis 3.2.x or 4.0
 
