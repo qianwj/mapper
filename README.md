@@ -20,6 +20,8 @@ Tomcat 9.0
 ElasticSearch 5.x(and need ansj, or you can edit the spiderinfo.json and webpage.json to adjust other Tokenizer, like ik.)
 Casperjs(you need to install phontomjs before)
 
+Optional:redis 3.2.x or 4.0
+
 ##Quick Start##
 After you downloaded this .war, and finished configure jdk,tomcat,..., you should put that into TOMCAT_HOME/webapp.
 
@@ -44,10 +46,25 @@ Yup, It already start!
 ##Use Casperjs##
 Setting up your casperjs's port:9302
 If you want another port, you need to decompress this war, and find the staticvalue.json, confgure the casperjs.
+```
+"ajaxDownloader": "http://localhost:9302/" 
+```
+And change to your port.
 
 ##Use ElasticSearch##
-1.Decompressing this war, then find the staticvalue.json,configure the es
+1.Decompressing this war, then find the staticvalue.json,configure the es(cause the default option is not need elasticsearch)
 ```
-needES:true
+"needES":true
 ```
+2.Change to your cluster
+```
+"esClusterName": "nest"
+```
+
+If you want to change the host and port
+```
+"esHost": "localhost",
+"esPort": 9300,
+```
+
 You need start elasticsearch before you catch the web pages.
