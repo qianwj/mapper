@@ -27,16 +27,16 @@ Optional:redis 3.2.x or 4.0
 ## Quick Start
 After you downloaded this .war, and finished configure jdk,tomcat,..., you should put that into TOMCAT_HOME/webapp.
 
-Then start tomcat
+### Then start tomcat
 
-Linux:
+#### Linux:
 Terminal:
 ```
 cd <your tomcat dir>
 ./bin/startup.sh
 ```
 
-Windows:
+#### Windows:
 Find your tomcat directory, into the bin, you'll find the tomcat9w.exe, then start it, you must know how to startup it.
 
 Open your browser
@@ -47,6 +47,7 @@ Yup, It already start!
 
 ## Use Casperjs
 Setting up your casperjs's port:9302
+
 If you want another port, you need to decompress this war, and find the staticvalue.json, confgure the casperjs.
 ```
 "ajaxDownloader": "http://localhost:9302/" 
