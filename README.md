@@ -32,6 +32,6 @@ find your tomcat directory, into the bin, you'll find the tomcat9w.exe, then sta
 
 Open your browser
 
-input the url:http://localhost:<your tomcat port>/nest-spider/ into location bar
+input the url:http://localhost:&gt;your tomcat port&lt;/nest-spider/ into location bar
 
 Yup, It already start!
