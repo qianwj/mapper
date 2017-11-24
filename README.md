@@ -8,12 +8,12 @@ This time, I made this spider just for fun.:-)
 
 Actucally, this spider has existed, I just update and fix it.
 
-###Provide the support for Webmagic 0.7.3, HttpClient 4.5.2, Spring 5.0###
-###Fix some problem in the Controller model###
-###Fix lots of NullPointerException###
-###Optimize UI###
+### Provide the support for Webmagic 0.7.3, HttpClient 4.5.2, Spring 5.0 
+### Fix some problem in the Controller model
+### Fix lots of NullPointerException
+### Optimize UI
 
-##Settings:##
+## Settings
 
 JDK 1.8.0
 Tomcat 9.0
@@ -22,7 +22,7 @@ Casperjs(you need to install phontomjs before)
 
 Optional:redis 3.2.x or 4.0
 
-##Quick Start##
+## Quick Start
 After you downloaded this .war, and finished configure jdk,tomcat,..., you should put that into TOMCAT_HOME/webapp.
 
 Then start tomcat
@@ -43,7 +43,7 @@ input the url:http://localhost:8080/nest-spider/ into location bar(if you change
 
 Yup, It already start!
 
-##Use Casperjs##
+## Use Casperjs
 Setting up your casperjs's port:9302
 If you want another port, you need to decompress this war, and find the staticvalue.json, confgure the casperjs.
 ```
@@ -51,7 +51,7 @@ If you want another port, you need to decompress this war, and find the staticva
 ```
 And change to your port.
 
-##Use ElasticSearch##
+## Use ElasticSearch
 1.Decompressing this war, then find the staticvalue.json,configure the es(cause the default option is not need elasticsearch)
 ```
 "needES":true
