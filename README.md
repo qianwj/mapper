@@ -8,6 +8,8 @@ This time, I made this spider just for fun.:-)
 
 Actucally, this spider has existed, I just update and fix it.
 
+Any questions, you can send to my e-mail:qwjlu@sina.com, I'll fix it soon.
+
 ### Provide the support for Webmagic 0.7.3, HttpClient 4.5.2, Spring 5.0 
 ### Fix some problem in the Controller model
 ### Fix lots of NullPointerException
@@ -15,9 +17,9 @@ Actucally, this spider has existed, I just update and fix it.
 
 ## Settings
 
-JDK 1.8.0</br>
-Tomcat 9.0</br>
-ElasticSearch 5.x(and need ansj, or you can edit the spiderinfo.json and webpage.json to adjust other Tokenizer, like ik.)
+1. JDK 1.8.0
+2. Tomcat 9.0
+3. ElasticSearch 5.x(and need ansj, or you can edit the spiderinfo.json and webpage.json to adjust other Tokenizer, like ik.)
 Casperjs(you need to install phontomjs before)</br>
 
 Optional:redis 3.2.x or 4.0
@@ -52,11 +54,11 @@ If you want another port, you need to decompress this war, and find the staticva
 And change to your port.
 
 ## Use ElasticSearch
-1.Decompressing this war, then find the staticvalue.json,configure the es(cause the default option is not need elasticsearch)
+1. Decompressing this war, then find the staticvalue.json,configure the es(cause the default option is not need elasticsearch)
 ```
 "needES":true
 ```
-2.Change to your cluster
+2. Change to your cluster
 ```
 "esClusterName": "nest"
 ```
