@@ -8,7 +8,7 @@ This time, I made this spider just for fun.:-)
 
 Actucally, this spider has existed, I just update and fix it.
 
-Any questions, you can send to my e-mail:qwjlu@sina.com, I'll fix it soon.
+Any questions, you can send to my e-mail:qwjlu@sina.com, I'll solve it soon.
 
 ### Provide the support for Webmagic 0.7.3, HttpClient 4.5.2, Spring 5.0 
 ### Fix some problem in the Controller model
