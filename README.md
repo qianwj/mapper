@@ -43,7 +43,7 @@ Open your browser
 
 input the url:http://localhost:8080/nest-spider/ into location bar(if you change your tomcat port, remember change the port in the url)
 
-<red>Yup, It already started!
+<font color="red">Yup, It already started!
 
 ## Use Casperjs
 Setting up your casperjs's port:9302
