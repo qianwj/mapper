@@ -10,7 +10,7 @@ import cn.nest.spider.entity.async.Task;
 import cn.nest.spider.entity.async.TaskManager;
 import cn.nest.spider.entity.util.State;
 
-@Component
+
 public class AsyncGather {
 
 	@Autowired
